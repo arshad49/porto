@@ -27,6 +27,8 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: 50px;
+    padding: 0;
+    margin: 0;
   }
 header{
     margin-top: 1%;
@@ -37,6 +39,7 @@ header{
     padding: 10px 20px;
     padding-top: 70px;
     
+
 }
 .logo{
     flex: 1;
@@ -73,8 +76,8 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 0;
-    margin: 80px;
-    padding-right: 50px;
+    /* margin: 80px; */
+    /* padding-right: 50px; */
     flex-wrap: wrap;
     border-radius: 25px;
     
