@@ -100,7 +100,7 @@ nav{
 .hexa{
     background: #000;
     padding: 100px;
-    margin-left:70px ;
+    margin-left:-30px ;
     display: block;
     height: auto;
     max-width: 100%;
@@ -109,7 +109,6 @@ nav{
 .hexa{
     width: 300px; /* Adjust size */
     height: 300px;
-    position: relative;
     overflow: hidden;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
     background-color: #000000;
@@ -278,6 +277,13 @@ nav{
     border-radius: 20px;
    
 }
+.flex-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.flex-item {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
 .skill2{
     margin-top: 60px;
 }
@@ -298,12 +304,12 @@ nav{
     text-align: center;
 
 }
-/* .Contact{
+ .Contact{
     margin-top: 400px;
 }
 form{
    
-    height: 595px;
+    height: 1000px;
     width: 1212px;
     background-color: #24114F;}
 
@@ -369,4 +375,24 @@ textarea {
     height: 100px;
     resize: none;
 }
-   */
+  
+.submit {
+    background-color: #1A0B3B;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-size: 28px;
+    font-family: "Newsreader", serif;
+    cursor: pointer;
+    margin: 30px auto;
+    display: block;
+    width: 300px;
+    height: 87px;
+    text-align: center;
+}
+
+.submit:hover {
+    background-color: #B0B0B0;
+    color: #000000;
+}
