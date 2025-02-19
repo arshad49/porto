@@ -333,6 +333,7 @@ form{
     gap: 0;
     margin-top: 50px;
 }
+
 .input-field {
     display: flex;
     flex-direction: column;
